@@ -55,12 +55,12 @@ count_matrix = cv.fit_transform(df["combined_features"])
 ## Step 5: Compute the Cosine Similarity based on the count_matrix
 cosine_sim = cosine_similarity(count_matrix)
 
-col1,col2=st.columns([6,3])
+col1,col2=st.columns([3,6])
 
-with col2:
+with col1:
     st.image("Screenshot.png", use_column_width=True)
     st.image("pcf.jpg", use_column_width=True)
-with col1:
+with col2:
     st.title("Welcome to NextWatch!")
     x=st.text_input("Enter the full name of your favourite movie:")
 
