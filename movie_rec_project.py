@@ -20,7 +20,7 @@ def get_index_from_title(title):
 ##################################################
 
 ## Step 1: Read CSV File
-df = pd.read_csv(r"C:\Users\SANJU\Downloads\movie_dataset.csv")
+df = pd.read_csv(r"movie_dataset.csv")
 #print(df.head())
 #.head() prints first few rows
 
