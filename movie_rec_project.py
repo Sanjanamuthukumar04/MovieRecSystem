@@ -61,8 +61,8 @@ with col1:
     st.title("Welcome to NextWatch!")
     x=st.text_input("Enter the full name of your favourite movie:")
 with col2:
-    st.image("D:\Screenshot (1).png", use_column_width=True)
-    st.image("D:\pcf.jpg", use_column_width=True)
+    st.image("Screenshot.png", use_column_width=True)
+    st.image("pcf.jpg", use_column_width=True)
 
 x=x.strip()
 
