@@ -68,7 +68,7 @@ x=x.strip()
 
 
 ## Step 6: Get index of this movie from its title
-if st.button('Recommend'):
+if x:
     movie_index = get_index_from_title(x)
 
     if movie_index is None:
