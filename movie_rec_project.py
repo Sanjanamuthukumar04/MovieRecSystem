@@ -57,12 +57,12 @@ cosine_sim = cosine_similarity(count_matrix)
 
 col1,col2=st.columns([6,3])
 
-with col1:
-    st.title("Welcome to NextWatch!")
-    x=st.text_input("Enter the full name of your favourite movie:")
 with col2:
     st.image("Screenshot.png", use_column_width=True)
     st.image("pcf.jpg", use_column_width=True)
+with col1:
+    st.title("Welcome to NextWatch!")
+    x=st.text_input("Enter the full name of your favourite movie:")
 
 x=x.strip()
 
