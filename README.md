@@ -16,5 +16,5 @@ A **content-based movie recommendation system** that suggests movies similar to 
 1. The system creates a combined textual profile of each movie from its director, genre, tags, and description.
 2. It vectorizes these profiles using TF-IDF or a similar text vectorization method.
 3. Cosine similarity is computed between the vector of the user's favorite movie and all other movies.
-4. The top-N most similar movies are returned as recommendations.
+4. The top-30 most similar movies are returned as recommendations.
 
